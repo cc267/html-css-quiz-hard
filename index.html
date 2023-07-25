@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced HTML and CSS Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Advanced HTML and CSS Quiz</h1>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. What is the purpose of the "figure" element in HTML?</p>
+        <label><input type="radio" name="q1" value="a" required> a) To define a section that contains related content, such as images and captions</label>
+        <label><input type="radio" name="q1" value="b"> b) To create a container for a video or audio player</label>
+        <label><input type="radio" name="q1" value="c"> c) To group navigation links together</label>
+      </div>
+
+      <div class="question">
+        <p>2. How can you create a flexible, responsive layout in CSS using grid?</p>
+        <label><input type="radio" name="q2" value="a" required> a) Using the "display: inline-block;" property</label>
+        <label><input type="radio" name="q2" value="b"> b) Using the "display: table;" property</label>
+        <label><input type="radio" name="q2" value="c"> c) Using the "display: grid;" property</label>
+      </div>
+
+      <div class="question">
+        <p>3. What is the purpose of the "aria-label" attribute in HTML?</p>
+        <label><input type="radio" name="q3" value="a" required> a) To add additional styling to an element</label>
+        <label><input type="radio" name="q3" value="b"> b) To provide a label for accessibility purposes</label>
+        <label><input type="radio" name="q3" value="c"> c) To group elements together for animation</label>
+      </div>
+
+      <div class="question">
+        <p>4. How can you create a smooth transition effect in CSS without using JavaScript?</p>
+        <label><input type="radio" name="q4" value="a" required> a) Using the "animation" property</label>
+        <label><input type="radio" name="q4" value="b"> b) Using the "transition" property</label>
+        <label><input type="radio" name="q4" value="c"> c) Using the "transform" property</label>
+      </div>
+
+      <div class="question">
+        <p>5. How can you align an element to the center of its container both horizontally and vertically in CSS?</p>
+        <label><input type="radio" name="q5" value="a" required> a) Using the "flexbox" layout</label>
+        <label><input type="radio" name="q5" value="b"> b) Using the "position: absolute;" property</label>
+        <label><input type="radio" name="q5" value="c"> c) Using the "display: grid;" property</label>
+      </div>
+
+      <div class="question">
+        <p>6. What is the purpose of the "picture" element in HTML?</p>
+        <label><input type="radio" name="q6" value="a" required> a) To add a background image to a section</label>
+        <label><input type="radio" name="q6" value="b"> b) To display a responsive image based on device size and resolution</label>
+        <label><input type="radio" name="q6" value="c"> c) To create a slideshow of images</label>
+      </div>
+
+      <div class="question">
+        <p>7. How can you apply custom fonts to a web page using CSS?</p>
+        <label><input type="radio" name="q7" value="a" required> a) Using the "font-family" property</label>
+        <label><input type="radio" name="q7" value="b"> b) Using the "font-style" property</label>
+        <label><input type="radio" name="q7" value="c"> c) Using the "font-weight" property</label>
+      </div>
+
+      <div class="question">
+        <p>8. What is the purpose of the "currentColor" keyword in CSS?</p>
+        <label><input type="radio" name="q8" value="a" required> a) To apply the current font color to an element</label>
+        <label><input type="radio" name="q8" value="b"> b) To change the color of the background</label>
+        <label><input type="radio" name="q8" value="c"> c) To set the current color to transparent</label>
+      </div>
+
+      <div class="question">
+        <p>9. How can you create a gradient background in CSS?</p>
+        <label><input type="radio" name="q9" value="a" required> a) Using the "background-image" property</label>
+        <label><input type="radio" name="q9" value="b"> b) Using the "background-color" property</label>
+        <label><input type="radio" name="q9" value="c"> c) Using the "background-gradient" property</label>
+      </div>
+
+      <div class="question">
+        <p>10. What is the purpose of the "box-shadow" property in CSS?</p>
+        <label><input type="radio" name="q10" value="a" required> a) To add a border around an element</label>
+        <label><input type="radio" name="q10" value="b"> b) To apply a drop shadow to an element</label>
+        <label><input type="radio" name="q10" value="c"> c) To set the background color of an element</label>
+      </div>
+
+      <button type="submit">Submit Quiz</button>
+    </form>
+
+    <div id="result" class="hidden">
+      <h2>Quiz Result:</h2>
+      <p id="score"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
